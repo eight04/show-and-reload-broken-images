@@ -18,11 +18,11 @@ Image with blank alt. By the default, you will see nothing.
 Image with alt attribute. You should see the text in alt attribute.
 <img alt="There used to be a image, but now it is broken" src="https://i.am.broken">
 ```
-![http://i.imgur.com/TlUcgQH.png](https://i.imgur.com/TlUcgQH.png)
+![before](https://i.imgur.com/TlUcgQH.png)
 
 After installing the script:
 
-![http://i.imgur.com/EwrhEpi.png](https://i.imgur.com/EwrhEpi.png)
+![after](https://i.imgur.com/EwrhEpi.png)
 
 Changelog
 ---------
