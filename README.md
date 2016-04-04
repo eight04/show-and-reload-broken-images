@@ -19,6 +19,9 @@ Image with alt attribute. You should see the text in alt attribute.
 <img alt="There used to be a image, but now it is broken" src="https://i.am.broken">
 ```
 ![http://i.imgur.com/TlUcgQH.png](http://i.imgur.com/TlUcgQH.png)
+
+After installing the script:
+
 ![http://i.imgur.com/EwrhEpi.png](http://i.imgur.com/EwrhEpi.png)
 
 Changelog
