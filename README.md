@@ -8,6 +8,7 @@ You can press Alt+R to reload the broken images.
 
 Example
 -------
+```
 Image without alt. you should see the icon by default.
 <img src="https://i.am.broken">
 
@@ -16,9 +17,7 @@ Image with blank alt. By the default, you will see nothing.
 
 Image with alt attribute. You should see the text in alt attribute.
 <img alt="There used to be a image, but now it is broken" src="https://i.am.broken">
-
-After install this script, you will only see the broken image icon just like the first one.
-
+```
 ![http://i.imgur.com/TlUcgQH.png](http://i.imgur.com/TlUcgQH.png)
 ![http://i.imgur.com/EwrhEpi.png](http://i.imgur.com/EwrhEpi.png)
 
