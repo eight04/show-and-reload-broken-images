@@ -1,0 +1,31 @@
+{
+  "name": "show-and-reload-broken-images",
+  "version": "2.2.1",
+  "description": "The name explained it",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "eslint **/*.js",
+    "build": "rollup -c --environment BUILD:userscript && inlinejs README.md -o README.md"
+  },
+  "repository": "eight04/show-and-reload-broken-images",
+  "author": "eight04 <eight04@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eight04/show-and-reload-broken-images/issues"
+  },
+  "homepage": "https://github.com/eight04/show-and-reload-broken-images#readme",
+  "userscript": {
+    "name": "Show and reload broken images",
+    "namespace": "eight04.blogspot.com",
+    "include": "*",
+    "grant": "GM_addStyle"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "inline-js": "^0.8.0",
+    "rollup": "^2.34.0",
+    "rollup-plugin-re": "^1.0.7",
+    "rollup-plugin-terser": "^7.0.2",
+    "userscript-meta-cli": "^0.4.2"
+  }
+}
