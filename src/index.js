@@ -1,16 +1,3 @@
-// ==UserScript==
-// @name Show and reload broken images
-// @version 2.2.1
-// @description The name explained it
-// @homepageURL https://github.com/eight04/show-and-reload-broken-images#readme
-// @supportURL https://github.com/eight04/show-and-reload-broken-images/issues
-// @license MIT
-// @author eight04 <eight04@gmail.com>
-// @namespace eight04.blogspot.com
-// @include *
-// @grant GM_addStyle
-// ==/UserScript==
-
 /* eslint-env browser, greasemonkey */
 
 function reloadImages() {
@@ -43,6 +30,8 @@ function init() {
   });
 }
 
-{
+if (process.env.BUILD === "bookmarklet") {
+  reloadImages();
+} else {
   init();
 }
