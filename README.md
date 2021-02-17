@@ -1,5 +1,8 @@
 Show and Reload Broken Images
 =============================
+
+![test](https://github.com/eight04/show-and-reload-broken-images/workflows/test/badge.svg)
+
 This script will force Firefox to show broken image icon when image failed loading, wether the image has alt attribute.
 You can press Alt+R to reload the broken images.
 
