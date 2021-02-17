@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Show and reload broken images
-// @version 2.2.1
+// @version 3.0.0
 // @description The name explained it
 // @homepageURL https://github.com/eight04/show-and-reload-broken-images#readme
 // @supportURL https://github.com/eight04/show-and-reload-broken-images/issues
