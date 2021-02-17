@@ -5,7 +5,10 @@
   "main": "src/index.js",
   "scripts": {
     "test": "eslint **/*.js",
-    "build": "rollup -c --environment BUILD:userscript && inlinejs README.md -o README.md"
+    "build": "rollup -c --environment BUILD:userscript && inlinejs README.md -o README.md",
+    "preversion": "npm test",
+    "version": "npm run build && git add .",
+    "postversion": "git push --follow-tags"
   },
   "repository": "eight04/show-and-reload-broken-images",
   "author": "eight04 <eight04@gmail.com>",

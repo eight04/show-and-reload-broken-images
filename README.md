@@ -36,5 +36,12 @@ javascript:void(!function()%7Bfor(const%20o%20of%20document.images)o.complete%26
 
 Changelog
 ---------
+
+* 3.0.0 (Feb 17, 2021)
+
+  - Rewrite in ES6.
+  - Add a bookmarklet to README.
+
 * 2.2.1 (Apr 4, 2016)
+
 	- Hide icon if `!image.src`.
