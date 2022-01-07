@@ -9,6 +9,11 @@ You can press Alt+R to reload the broken images.
 這個Script會強制Firefox顯示圖片載入失敗的圖示，即使圖片有alt屬性。
 按Alt+R會重新載入失敗的圖片。
 
+Compatibility
+-------------
+
+In Firefox 73+, [there is a bug that prevents the script from working when alt is an empty string](https://bugzilla.mozilla.org/show_bug.cgi?id=1616537).
+
 Example
 -------
 ```
